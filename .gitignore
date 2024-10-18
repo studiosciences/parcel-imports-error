@@ -1,0 +1,17 @@
+
+**/*.d.ts
+.DS_Store
+
+# Yarn - https://yarnpkg.com/getting-started/qa
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+
+node_modules
+.parcel-cache
+

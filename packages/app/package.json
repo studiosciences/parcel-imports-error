@@ -1,0 +1,26 @@
+{
+  "name": "@parcel-imports-error/app",
+  "version": "0.1.0",
+  "source": "./src/index.html",
+  "import": {
+    "#components/*": "./src/components/*"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-router-dom": "^6.27.0",
+    "typescript": "5.6.3"
+  },
+  "devDependencies": {
+    "@parcel/config-default": "2.12.0",
+    "@parcel/core": "^2.12.0",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "@types/react-router-dom": "5.3.3",
+    "parcel": "2.12.0"
+  },
+  "scripts": {
+    "start:app": "parcel serve --config .parcelrc --no-cache",
+    "build:app": "parcel build src/index.html --config .parcelrc"
+  }
+}
